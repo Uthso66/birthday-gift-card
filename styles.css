@@ -1,0 +1,104 @@
+body {
+    background: linear-gradient(#a2d2ff, #EFB0C9);
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0px 0px 1px black;
+    width: 400px;
+}
+
+
+#profile {
+    width: 200px;
+    height: 150px;
+    border-radius: 60%;
+    border: 6px solid #EFB0C9;
+}
+
+#bday-age {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+#bday-date {
+    margin: 0;
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+#header {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+.gift-section {
+    font-family: 'Happy Monkey', cursive;
+    margin-top: 50px;
+}
+
+.happy{
+    margin-bottom: 10px;
+}
+
+.hover {
+    margin-top: 0;
+}
+
+.gift-box {
+    background-image: url(images/istockphoto-1270430795-170667a.jpg);
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-size: cover;
+
+}
+
+#gift-img-happy:hover {
+    background-image: url('https://gifdb.com/images/thumbnail/happy-angry-birds-hatchlings-o3kroddmoac97wsc.gif');
+    background-size: 100% 100%;
+}
+
+#gift-img-hot:hover {
+    background-image: url('images/giphy.gif');
+    background-size: 100% 100%;
+}
+
+#gift-img-genius:hover {
+    background-image: url('https://media.tenor.com/atE5gpE8Wr0AAAAM/genius-shit-snoop-dogg.gif');
+    background-size: 100% 100%;
+}
+
+#gift-img-badass:hover {
+    background-image: url('https://thumbs.gfycat.com/UnfinishedChillyDungenesscrab-max-1mb.gif');
+    background-size: 100% 100%;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-cheers:hover {
+    background-image: url('https://i.gifer.com/PMKx.gif');
+}
+
+.footer {
+    margin: 50px 0 20px 0;
+    width: 400px;
+}
+
+a {
+    color: white;
+}
